@@ -46,7 +46,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;92m🔑\x1b[1;93mTool Password  \x1b[1;96m == \x1b[1;95m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev: Yousuf
+            print "Logged in successfully as " + username #Dev: SYEDRAHIM
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -61,7 +61,7 @@ print ("\033[1;91m===================================")
 time.sleep(0.1)
 user = raw_input('[?] Target Username/ID/Email >>> ')
 time.sleep(0.1)
-wrdlstFileName = raw_input('\n[?] Wordlist Directory >>> ')
+wrdlstFileName = raw_input('\n[?] Wordlist Directory >>> ') Type pakistan.txt
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
