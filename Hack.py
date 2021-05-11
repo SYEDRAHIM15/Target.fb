@@ -57,11 +57,11 @@ while (loop == 'true'):
         os.system('xdg-open https://youtu.be/Vcg8yW4pwsw')
  
 print ("\033[1;91m===================================")
-"""
+""""""
 time.sleep(0.1)
 user = raw_input('[?] Target Username/ID/Email >>> ')
 time.sleep(0.1)
-wrdlstFileName = raw_input('\n[?] Wordlist Directory >>> ') Type pakistan.txt
+wrdlstFileName = raw_input('\n[?] Wordlist Directory >>> ')  pakistan.txt
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
