@@ -61,7 +61,7 @@ print ("\033[1;91m===================================")
 time.sleep(0.1)
 user = raw_input('[?] Target Username/ID/Email >>> ')
 time.sleep(0.1)
-wrdlstFileName = raw_input('\n[?] Wordlist Directory >>> ')  pakistan.txt
+wrdlstFileName = raw_input('\n[?] Wordlist Directory >>> ')  
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
